@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "canvas": "^2.9.1",
+    "discord.js": "^13.7.0",
+    "fs": "^0.0.1-security",
+    "gamedig": "^4.0.4",
+    "simple-canvas-progress-bar": "^1.0.3"
+  }
+}
