@@ -3,15 +3,15 @@
     const {createCanvas , loadImage} = require('canvas');
     const fs = require('fs')
 
-    const WBID = "1274484181908590663";/// هنا ايدي رسالة الويب هوك
+    const WBID = "1292217672087638017";/// هنا ايدي رسالة الويب هوك
     const ServerInfo = [
-        "51.83.173.177",/// هنا ايدي السيرفر
-        "22003",/// هنا البورت
+        "89.42.88.252",/// هنا ايدي السيرفر
+        "22001",/// هنا البورت
     ]
     var IntervalPlay = false;
 
     const webhookClient =  new WebhookClient({
-        url: "https://discord.com/api/webhooks/1274484052040220793/zIWgC123gMntGBIN7-8XksO_5O6ZKN5CDgpCP3ly3mq0cXg6-ca2OPylinu_YdEZXWJS"/// هنا رابط الويب هوك 
+        url: "https://discord.com/api/webhooks/1292216501780091094/5W2ZJbqlNQOpkMxB6I1jWa66HNUXahHXddKVBnFuNRAGKmYxTrmSg3mPp3KhGPW0W3fL"/// هنا رابط الويب هوك 
     });
 
     function secondsToDhms(seconds) {
@@ -98,7 +98,7 @@
             { name: '** مدة التشغيل**', value: "**"+secondsToDhms(upTime)+"**", inline: true },
             { name: '** الإحصائية**', value: "** أعلئ المتصلين: "+AsTopStats.TopPlayers+"**", inline: true },
         )
-        .setThumbnail('https://media.discordapp.net/attachments/1144911552013676558/1246984160296570930/40f5a12daf8f5b4a.png?ex=669c567f&is=669b04ff&hm=bd592ed315eb39bc5b14a56cc221dd872e57bcde193f1860d7c4641747268bff&=&format=webp&quality=lossless') 
+        .setThumbnail('https://images-ext-1.discordapp.net/external/JBcLmNfTNcRJvNyox0mifTMuSbjGipP9lrweb6k4pCM/%3Fsize%3D1024/https/cdn.discordapp.com/icons/1285329052596437042/98a9f848ccbc333e249497e089ecc60a.png?format=webp&quality=lossless&width=468&height=468') 
         .setImage("attachment://As.png")
         .setFooter('Server Status ' + current.toLocaleTimeString());
 
