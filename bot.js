@@ -3,15 +3,15 @@
     const {createCanvas , loadImage} = require('canvas');
     const fs = require('fs')
 
-    const WBID = "1292217672087638017";/// هنا ايدي رسالة الويب هوك
+    const WBID = "1292217672087638017";
     const ServerInfo = [
-        "89.42.88.252",/// هنا ايدي السيرفر
-        "22001",/// هنا البورت
+        "89.42.88.252",
+        "22001",
     ]
     var IntervalPlay = false;
 
     const webhookClient =  new WebhookClient({
-        url: "https://discord.com/api/webhooks/1292216501780091094/5W2ZJbqlNQOpkMxB6I1jWa66HNUXahHXddKVBnFuNRAGKmYxTrmSg3mPp3KhGPW0W3fL"/// هنا رابط الويب هوك 
+        url: "https://discord.com/api/webhooks/1292216501780091094/5W2ZJbqlNQOpkMxB6I1jWa66HNUXahHXddKVBnFuNRAGKmYxTrmSg3mPp3KhGPW0W3fL"
     });
 
     function secondsToDhms(seconds) {
